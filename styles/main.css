@@ -54,3 +54,9 @@ main {
     width: 15cm;
     font-family: cursive;
 }
+
+#content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
