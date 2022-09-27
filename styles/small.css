@@ -1,13 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;1,700&display=swap");
-
 h1 {
-    font-family: "Helvetica", sans-serif;
-    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
 }
 
 h2 {
-  font-family: "Helvetica", sans-serif;
-  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
   margin: 0;
   border-bottom: 1px solid;
   padding: 0.5em;
@@ -16,14 +14,12 @@ h2 {
 
 body {
   background-color: lightblue;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 1.5em;
 }
 
 header {
-    display: grid;
-    grid-template-columns: 150px auto;
     background-color: gray;
     color: white;
     align-items: center;
@@ -52,11 +48,11 @@ main {
     text-align: left;
     border-top: 1px solid;
     width: 15cm;
-    font-family: cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
 }
 
 #content {
     max-width: 600px;
     margin: 0 auto;
   }
-
