@@ -1,26 +1,26 @@
 h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 0;
     padding: 0.5em;
 }
 
 h2 {
     font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     margin: 0;
     padding: 0.5em;
 }
 
 h3 {
     font-family: "Roboto", sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     margin: 0;
 }
 
 p {
     font-family: "Roboto", sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
 }
 
 body {
@@ -38,7 +38,7 @@ header {
 
 footer {
     font-family: "Roboto", sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     background-color: gray;
     color: white;
     padding: 5px;
