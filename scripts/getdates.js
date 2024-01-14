@@ -6,8 +6,8 @@ document.querySelector('#year').innerHTML = current_year;
 
 let oLastModif = new Date(document.lastModified);
 
-var options = {year: '2-digit', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false};
+var options = { year: '2-digit', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
 
-oLastModif = oLastModif.toLocaleDateString("en-US", options); 
+oLastModif = oLastModif.toLocaleDateString("en-US", options);
 
-document.querySelector('#lastMod').innerHTML = oLastModif;
+document.querySelector('#lastModified').innerHTML = oLastModif;
