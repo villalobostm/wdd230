@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 2.25rem;
+    font-size: 2rem;
     padding: 0.5em;
     text-align: center;
 }
@@ -17,25 +23,25 @@ h2 {
 
 h3 {
     font-family: "Roboto", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin: 0;
     border-bottom: 1px solid;
     padding: 0.5em;
     width: 15cm;
-    background-color: gray;
+    background-color: #cfcfcf;
     text-align: center;
 }
 
 body {
-    background-color: lightblue;
+    background-color: #d1eaf1;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 1.5em;
 }
 
 header {
-    background-color: gray;
-    color: white;
+    background-color: #cfcfcf;
+    color: #141414;
     align-items: center;
 }
 
@@ -45,11 +51,11 @@ div {
 }
 
 footer {
-    background-color: gray;
-    color: white;
+    background-color: #cfcfcf;
+    color: #141414;
     padding: 5px;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 main {
@@ -73,13 +79,39 @@ ul {
 
 #information {
     text-align: center;
+    font-size: 1rem;
 }
 
 #activities {
     padding: 0.5em;
+    font-size: 1rem;
 }
 
-#navigation {
+nav {
     text-align: center;
     font-size: 20px;
+    background-color: #313131;
+    max-width: 700px;
+    margin: 1rem auto;
+}
+
+nav a {
+    color: white;
+}
+
+nav a::before {
+    content: "✅ ";
+}
+
+#menu {
+    display: none;
+    /* hide hamburger button */
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #333;
+    color: #fff;
 }
