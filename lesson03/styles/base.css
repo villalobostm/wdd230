@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #fcfafa;
+    --secondary-color: #c8d3d5;
+    --accent1-color: #a4b8c4;
+    --accent2-color: #6e8387;
+
+    --heading-font: "Helvetica", sans-serif;
+    --paragraph-font: "Lato", sans-serif;
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: black;
+    /* headlines on a white background */
+    --headline-color-on-color: white;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: black;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: white;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: black;
+}
+
+html {
+    background-color: var(--primary-color);
+}
+
+body {
+    max-width: 940px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+.colors {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: var(--paragraph-color-on-color);
+    background-color: var(--paragraph-background-color);
+}
+
+header>h1,
+header>h2 {
+    color: var(--headline-color-on-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 1em;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999999;
+}
+
+.colors td {
+    width: 25%;
+    height: 3em;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+}
+
+.accent2 {
+    background-color: var(--accent2-color);
+}
+
+p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+}
