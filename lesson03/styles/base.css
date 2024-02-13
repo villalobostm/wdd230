@@ -9,24 +9,19 @@
 
     /* these colors below should be chosen from among your palette colors above */
     --headline-color-on-white: black;
-    /* headlines on a white background */
-    --headline-color-on-color: white;
     /* headlines on a colored background */
     --paragraph-color-on-white: black;
-    /* paragraph text on a white background */
-    --paragraph-color-on-color: white;
     /* paragraph text on a colored background */
-    --paragraph-background-color: black;
 }
 
 html {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 body {
     max-width: 940px;
     margin: 0 auto;
-    background-color: white;
+    background-color: var(--primary-color);
     padding: 1em;
 }
 
@@ -49,13 +44,13 @@ ul,
 header {
     padding: 1em;
     text-align: center;
-    color: var(--paragraph-color-on-color);
-    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-white);
+    background-color: var(--accent1-color);
 }
 
 header>h1,
 header>h2 {
-    color: var(--headline-color-on-color);
+    color: var(--headline-color-on-white);
 }
 
 p {
@@ -97,6 +92,6 @@ p {
 }
 
 p.colored {
-    background-color: var(--paragraph-background-color);
-    color: var(--paragraph-color-on-color);
+    background-color: var(--secondary-color);
+    color: var(--paragraph-color-on-white);
 }

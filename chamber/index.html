@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thomas M. Villalobos - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230, Thomas M. Villalobos. The Chamber of Commerce Home Page">
+    <meta name="author" content="Thomas M. Villalobos">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Home Page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image"
+        content="https://elsalvador.travel/system/wp-content/uploads/2021/04/Santa-Tecla-3-scaled.jpg" />
+    <meta property="og:url" content="https://villalobostm.github.io/wdd230/" />
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <div class="chamber-photo">
+                <h1>Santa Tecla Chamber of Commerce</h1>
+                <img src="images/chamber-commerce-photo.jpg" alt="photo" />
+            </div>
+            <button id="menu"></button>
+            <nav class="navigation">
+                <a href="#">Home</a>
+                <a href="#">Events</a>
+                <a href="#">Work</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h3 class="card">Current Events</h3>
+                <ul id="events">
+                    <li>Upcoming Events</li>
+                    <li>Day Forum</li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="card">Weather</h3>
+                <ul id="weather">
+                    <li>Santa Tecla, La Libertad, El Salvador</li>
+                    <li>Weather</li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="card">Spotlight on Small Business</h3>
+                <ul id="advertisements">
+                    <li>New Business Applications</li>
+                    <li>Small Business Weekly Forecast</li>
+                    <li>Rhythms of Success</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>Santa Tecla Chamber of Commerce</p>
+            <p>WhatsApp +503 7351-0161</p>
+            <br>Santa Tecla Chamber &copy;<span id="year"></span>
+            <p>Thomas Manuel Villalobos Alemán</p>
+            <p>WDD 230 - Chamber of Commerce Project</p>
+            <br>Last Modification: <span id="lastModified"></span>
+        </footer>
+        <script src="scripts/getdates.js"></script>
+        <script src="scripts/menu.js"></script>
+    </div>
+</body>
+
+</html>

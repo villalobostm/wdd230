@@ -44,11 +44,9 @@
         flex: 1 1 100%;
     }
 
-    #information {
-        font-size: 1.25rem;
-    }
-
-    #activities {
+    #events,
+    #weather,
+    #advertisements {
         font-size: 1.25rem;
     }
 
