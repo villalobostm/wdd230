@@ -14,14 +14,17 @@
 
     h2 {
         font-size: 1.75rem;
+        width: 25cm;
     }
 
     h3 {
         font-size: 1.5rem;
+        width: 25cm;
     }
 
     footer {
         font-size: 1.1rem;
+        width: 25cm;
     }
 
     p {
@@ -48,6 +51,15 @@
     #weather,
     #advertisements {
         font-size: 1.25rem;
+    }
+
+    header {
+        width: 25cm;
+    }
+
+    #content {
+        margin: 0 auto;
+        width: 25cm;
     }
 
 }

@@ -17,6 +17,7 @@
 
     #menu::before {
         content: "☰";
+        color: red;
     }
 
     #menu.open::before {
@@ -57,14 +58,17 @@
 
     h2 {
         font-size: 1rem;
+        max-width: 414px;
     }
 
     h3 {
         font-size: 0.85rem;
+        max-width: 414px;
     }
 
     footer {
         font-size: 0.85rem;
+        max-width: 414px;
     }
 
     p {
@@ -75,6 +79,14 @@
     #weather,
     #advertisements {
         font-size: 0.85rem;
+    }
+
+    header {
+        max-width: 414px;
+    }
+
+    #content {
+        max-width: 414px;
     }
 
 }
