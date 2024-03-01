@@ -1,5 +1,5 @@
 /* Phone Views ******************************/
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
     main {
         grid-template-columns: 1fr;
     }

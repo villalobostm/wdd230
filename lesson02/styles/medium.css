@@ -1,21 +1,21 @@
 /* Tablet Views ******************************/
-@media only screen and (min-width: 37.5em) {
-	main {
-		grid-template-columns: 1fr 1fr;
-	}
+@media only screen and (min-width: 600px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
 
-	main section:nth-child(2) {
-		display: block;
-	}
+    main section:nth-child(2) {
+        display: block;
+    }
 
-	main section:nth-child(3) {
-		grid-column: span 2;
-	}
+    main section:nth-child(3) {
+        grid-column: span 2;
+    }
 
     h1 {
         font-size: 2.2rem;
     }
-    
+
     h2 {
         font-size: 1.2rem;
     }
@@ -23,16 +23,16 @@
     h3 {
         font-size: 0.95rem;
     }
-    
+
     footer {
         font-size: 1rem;
     }
-    
+
     p {
         font-size: 0.9rem;
     }
-    
-    .name{
+
+    .name {
         font-size: 1.7rem;
     }
 
