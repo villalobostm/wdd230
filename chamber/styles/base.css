@@ -17,7 +17,7 @@ h2 {
     margin: 0;
     border-bottom: 1px solid;
     padding: 0.5em;
-    width: 15cm;
+    width: auto;
     text-align: center;
 }
 
@@ -27,7 +27,7 @@ h3 {
     margin: 0;
     border-bottom: 1px solid;
     padding: 0.5em;
-    width: 15cm;
+    width: auto;
     background-color: #c8d3d5;
     text-align: center;
 }
@@ -43,7 +43,6 @@ header {
     background-color: #a4b8c4;
     color: #141414;
     align-items: center;
-    width: 15cm;
 }
 
 div {
@@ -72,11 +71,8 @@ main {
 
 ul {
     list-style-type: none;
-    /* Remove bullets */
     padding: 0;
-    /* Remove padding */
     margin: 0;
-    /* Remove margins */
 }
 
 #events,
@@ -131,4 +127,17 @@ nav a::before {
     font-size: 3rem;
     cursor: pointer;
     font-size: 2rem;
+}
+
+.hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .1);
+    height: auto;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }

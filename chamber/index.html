@@ -30,7 +30,7 @@
         <header>
             <div class="chamber-photo">
                 <h1>Santa Tecla Chamber of Commerce</h1>
-                <img src="images/chamber-commerce-photo.jpg" alt="photo" />
+                <img src="images/chamber-commerce-photo.webp" alt="photo" />
             </div>
             <button id="menu"></button>
             <nav class="navigation">
@@ -41,6 +41,13 @@
             </nav>
         </header>
         <main>
+            <div class="hero">
+                <picture>
+                    <source srcset="images/hero-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/hero-medium.webp" media="(max-width: 960px)">
+                    <img src="images/hero-large.webp" alt="Hero Image" width="1200" height="700">
+                </picture>
+            </div>
             <section>
                 <h3 class="card">Events</h3>
                 <ul id="events">
@@ -53,6 +60,14 @@
                 <ul id="weather">
                     <li>Santa Tecla, La Libertad, El Salvador</li>
                     <li>Weather</li>
+                    <li>Wind Chill Index Calculation</li>
+                    <div class="wind-chill">
+                        <label for="temperature">Enter the temperature (°F): </label>
+                        <input type="text" id="temperature" placeholder="<50">
+                        <br><label for="wind-speed">Enter the wind speed (mph): </label>
+                        <input type="text" id="wind-speed" placeholder=">3">
+                        <br>Wind chill factor: <span id="WindChill"></span>
+                    </div>
                 </ul>
             </section>
             <section>
@@ -75,6 +90,7 @@
         <script src="scripts/getdates.js"></script>
         <script src="scripts/menu.js"></script>
         <script src="scripts/mode.js"></script>
+        <script src="scripts/windchill.js"></script>
     </div>
 </body>
 
