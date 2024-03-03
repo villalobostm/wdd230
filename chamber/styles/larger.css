@@ -62,4 +62,8 @@
         width: 25cm;
     }
 
+    .wind-chill {
+        font-size: 1.25rem;
+    }
+
 }

@@ -89,4 +89,8 @@
         max-width: 414px;
     }
 
+    .wind-chill {
+        font-size: 0.85rem;
+    }
+
 }
