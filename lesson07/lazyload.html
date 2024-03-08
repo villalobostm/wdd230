@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lazy Loading Demostration</title>
+    <meta name="description" content="WDD 230, Thomas M. Villalobos. Lazy Loading">
+    <meta name="author" content="Thomas M. Villalobos">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Home Page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image"
+        content="https://elsalvador.travel/system/wp-content/uploads/2021/04/Santa-Tecla-3-scaled.jpg" />
+    <meta property="og:url" content="https://villalobostm.github.io/wdd230/" />
+</head>
+
+<body>
+    <header>
+        <h1>Lazy Loading</h1>
+    </header>
+    <main>
+        <picture>
+            <img src="https://loremflickr.com/400/600?random=1" alt="image-random1" loading="lazy" width="400"
+                height="600">
+        </picture>
+        <picture>
+            <img src="https://loremflickr.com/400/600?random=2" alt="image-random2" loading="lazy" width="400"
+                height="600">
+        </picture>
+        <picture>
+            <img src="https://loremflickr.com/400/600?random=3" alt="image-random3" loading="lazy" width="400"
+                height="600">
+        </picture>
+        <picture>
+            <img src="https://loremflickr.com/400/600?random=4" alt="image-random4" loading="lazy" width="400"
+                height="600">
+        </picture>
+        <picture>
+            <img src="https://loremflickr.com/400/600?random=5" alt="image-random5" loading="lazy" width="400"
+                height="600">
+        </picture>
+        <picture>
+            <img src="https://loremflickr.com/400/600?random=6" alt="image-random6" loading="lazy" width="400"
+                height="600">
+        </picture>
+    </main>
+    <footer>
+        &copy;<span id="year"></span>
+        <p>Thomas Manuel Villalobos Alemán</p>
+        <p>El Salvador</p>
+        <br>Last Modification: <span id="lastModified"></span>
+    </footer>
+    <script src="scripts/lazyload.js"></script>
+</body>
+
+</html>
