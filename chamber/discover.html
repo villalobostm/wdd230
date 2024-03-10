@@ -41,42 +41,30 @@
             </nav>
         </header>
         <main>
-            <div class="hero">
-                <picture>
-                    <source srcset="images/hero-small.webp" media="(max-width: 400px)">
-                    <source srcset="images/hero-medium.webp" media="(max-width: 960px)">
-                    <img src="images/hero-large.webp" alt="Hero Image" width="1200" height="700">
-                </picture>
-            </div>
+            <picture>
+                <img class="discover" src="images/boqueron.webp" alt="boqueron" loading="lazy" width="600" height="400">
+            </picture>
+            <picture>
+                <img class="discover" src="images/palacio-tecleño.webp" alt="palacio-tecleño" loading="lazy" width="600"
+                    height="400">
+            </picture>
+            <picture>
+                <img class="discover" src="images/paseo-el-carmen.webp" alt="paseo-el-carmen" loading="lazy" width="600"
+                    height="450">
+            </picture>
+            <picture>
+                <img class="discover" src="images/los-chorros.webp" alt="los-chorros" loading="lazy" width="600"
+                    height="450">
+            </picture>
+            <picture>
+                <img class="discover" src="images/pic-nic.webp" alt="pic-nic" loading="lazy" width="600" height="400">
+            </picture>
+            <picture>
+                <img class="discover" src="images/villa-navideña.webp" alt="villa-navideña" loading="lazy" width="600"
+                    height="450">
+            </picture>
             <section>
-                <h3 class="card">Events</h3>
-                <ul id="events">
-                    <li>Upcoming Events</li>
-                    <li>Day Forum</li>
-                </ul>
-            </section>
-            <section>
-                <h3 class="card">Weather</h3>
-                <ul id="weather">
-                    <li>Santa Tecla, La Libertad, El Salvador</li>
-                    <li>Weather</li>
-                    <li>Wind Chill Calculator</li>
-                </ul>
-                <div class="wind-chill">
-                    <label for="temperature">&ensp;Enter the temperature (°F): </label>
-                    <input type="text" id="temperature" placeholder="<50">
-                    <br><label for="wind-speed">&ensp;Enter the wind speed (mph): </label>
-                    <input type="text" id="wind-speed" placeholder=">3">
-                    <br>&ensp;Wind chill (°F): <span id="WindChill"></span>
-                </div>
-            </section>
-            <section>
-                <h3 class="card">Member Spotlights</h3>
-                <ul id="advertisements">
-                    <li>New Business Applications</li>
-                    <li>Small Business Weekly Forecast</li>
-                    <li>Rhythms of Success</li>
-                </ul>
+                <span id="visitDate"></span>
             </section>
         </main>
         <footer>

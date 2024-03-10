@@ -93,4 +93,13 @@
         font-size: 0.85rem;
     }
 
+    /* hover effect */
+    .discover:hover {
+        box-shadow: none;
+    }
+
+    #visitDate {
+        font-size: 1rem;
+    }
+
 }

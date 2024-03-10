@@ -100,7 +100,6 @@ nav a::before {
 
 #menu {
     display: none;
-    /* hide hamburger button */
 }
 
 .navigation {
@@ -144,4 +143,28 @@ nav a::before {
 
 .wind-chill {
     font-size: 1rem;
+}
+
+figure {
+    background-color: #fff;
+}
+
+.discover {
+    width: 100%;
+    height: auto;
+    margin: .5rem;
+}
+
+/* hover effect */
+.discover:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+#visitDate {
+    padding: 0.5em;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: auto;
+    display: table;
+    color: #00f;
 }
